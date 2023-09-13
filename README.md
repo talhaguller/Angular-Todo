@@ -1,27 +1,27 @@
 # AngularTodo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.6.
+Bu proje, [Angular CLI](https://github.com/angular/angular-cli) sürüm 16.1.6 ile oluşturulmuştur.
 
-## Development server
+## Geliştirme Sunucusu
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Geliştirme sunucusu için `ng serve` komutunu çalıştırın. Tarayıcınızı  `http://localhost:4200/` adresine yönlendirerek, kaynak dosyalarınızdan herhangi birini değiştirdiğinizde uygulama otomatik olarak yeniden yüklenecektir.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Kod Oluşturma
+Yeni bir bileşen oluşturmak için `ng generate component component-name` komutunu kullanabilirsiniz. Ayrıca `ng generate directive|pipe|service|class|guard|interface|enum|module` kullanabilirsiniz.
 
-## Build
+## Derleme
+Projeyi derlemek için `ng build` komutunu çalıştırın. Derleme ürünleri `dist/` dizininde saklanacaktır.
+Run  to build the project. The build artifacts will be stored in the  directory.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Birim Testleri Çalıştırma
+Birim testleri [Karma](https://karma-runner.github.io). üzerinden çalıştırmak için `ng test` komutunu kullanın.
 
-## Running unit tests
+## Uçtan Uca Testleri Çalıştırma
+Uçtan uca testleri çalıştırmak için `ng e2e` komutunu kullanabilirsiniz. Bu komutu kullanmak için öncelikle uçtan uca test yeteneklerini uygulayan bir paketi eklemeniz gerekmektedir.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Daha Fazla Yardım
+Angular CLI hakkında daha fazla yardım almak için `ng help` komutunu kullanabilir veya [Angular CLI Overview and Command Reference](https://angular.io/cli) sayfasını ziyaret edebilirsiniz.
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Uygulama Arayüzü
+![Resim Açıklaması](Uygulama-arayüz.png)
